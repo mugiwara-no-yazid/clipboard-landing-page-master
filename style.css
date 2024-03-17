@@ -1,0 +1,245 @@
+@font-face
+{
+    font-family:Bai-Jamjuree;
+    src: url("https://fonts.google.com/specimen/Bai+Jamjuree");
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body
+{
+    width: auto;
+    margin: 0;
+    font-family: Bai-Jamjuree Arial, Helvetica, sans-serif;
+    color:  hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+header
+{
+    width: 100%;;
+    background-image: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 150px 0 20px 0;
+    flex-direction: column;
+    align-items: center;
+}
+header img
+{
+    width: 100px;
+}
+button
+{
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#DownloadIOS
+{
+    border-color:hsl(171, 66%, 44%) ;
+    background-color: hsl(171, 66%, 44%);
+}
+#DownloadMAC
+{
+    border-color: hsl(233, 100%, 69%);
+    background-color: hsl(233, 100%, 69%);   
+}
+#DownloadIOS,#DownloadMAC:hover
+{    
+    cursor: pointer;
+}
+#pcdiv
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#texteprincipale
+{
+    width: 600px;
+}
+#pcimage
+{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+#commentaire
+{   
+    margin-left: 10%;
+    width: 500px;
+}
+#pcdiv img
+ {
+    width: 100%;
+ }
+#Supercharge
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Superchargearcticle
+{
+    display: flex;
+    
+}
+#tireetlogo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Superchargearticle
+{
+    margin: 30px;
+    width: 380px;
+}
+#logopartenaire
+{
+    display: flex;
+    justify-content: space-around;
+}
+#clipboard
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#clipboard p
+{
+    width: 50%;
+}
+footer
+{
+    background-color: rgb(231, 231, 231);
+}
+
+
+#findepage 
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+#link
+{
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,50px);
+    gap: 10px;
+    justify-items: flex-start;
+}
+#link1
+{ 
+    grid-column: 1;
+    grid-row: 1;
+}
+#link2
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+#link3
+{
+    grid-column: 3;
+    grid-row: 1;
+}
+#link4
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+#link5
+{
+    grid-column: 2;
+    grid-row: 2;
+}
+#reseau img
+{
+    margin-left: 20px;
+}
+div
+{
+    margin-top: 50px;
+}
+@media screen and (max-width:768px) {
+    body
+    {
+        align-items: center;
+        justify-items: center;
+    }
+ section
+ {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: space-around;
+ } 
+ header
+ {
+    background-image: url("./images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ } 
+ #headerbutton
+ {
+    display: flex;
+    flex-direction: column;
+ }
+ button 
+ {
+    width: 200px;
+ }
+ #pcimage
+ {
+    flex-direction: column;
+ }
+ #commentaire,#texteprincipale
+ {
+    width: 250px;
+ }
+ 
+ #Superchargearcticle,#logopartenaire
+ {
+    flex-direction: column;
+    align-items: center;
+ }
+ #logopartenaire img
+ {
+    margin: 20px;
+    width: 150px;
+ }
+ #clipboard
+ {
+    width: 300px;
+ }
+ #clipboard p
+{
+    width: auto;
+}
+#findepage
+{
+    flex-direction: column;
+}
+#link
+{
+    display: flex;
+    flex-direction: column;
+}
+#Supercharge, #Supercharge p 
+{
+    width: 300px;
+}
+}
